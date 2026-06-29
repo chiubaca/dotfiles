@@ -1,0 +1,32 @@
+# Shell
+# command = /usr/bin/bash
+
+# Theme - Catppuccin Mocha (warm pastel dark)
+theme = Catppuccin Mocha
+
+# Font - SF Mono (system mono on macOS)
+font-family = SF Mono
+font-size = 14
+font-feature = ss01
+
+# Window
+window-padding-x = 12
+window-padding-y = 12
+window-padding-color = extend
+macos-titlebar-style = tabs
+window-theme = ghostty
+
+# Transparency + blur for the glassy look
+background-opacity = 0.65
+background-blur-radius = 40
+
+# Cursor
+cursor-style = bar
+cursor-style-blink = true
+
+# Mouse + scrollback
+mouse-hide-while-typing = true
+scrollback-limit = 100000
+
+# Quick terminal (quake mode) - drop-down terminal toggled by a global hotkey
+keybind = global:opt+§=toggle_quick_terminal

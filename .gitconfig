@@ -1,0 +1,5 @@
+[user]
+	email = alexchiu11@gmail.com
+	name = alex
+[core]
+	excludesfile = /Users/chiubaca/.gitignore-global
