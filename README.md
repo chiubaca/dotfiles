@@ -1,6 +1,6 @@
 # dotfiles
 
-Managed with a bare git repo. Files stay in place in `$HOME` — no symlinks, no extra tools.
+how i do my dots
 
 ## What's tracked
 
@@ -44,9 +44,5 @@ config commit -m "tweak zshrc"
 config push
 ```
 
-Only files you explicitly `config add` are tracked. Never `config add .` — review first, since this repo is public.
+Add a new dot file with `config add`.
 
-## Notes
-
-- Repo is **public**. Never track secrets (API keys, tokens, SSH keys). The opencode config references env vars only.
-- Per-machine differences: use in-file conditionals (e.g. `if [[ $(hostname) = ... ]]` blocks) rather than per-machine branches.
